@@ -7,8 +7,8 @@ body {
 }
 
 body {
-  min-width: 430px;
-  border: 2px dashed #c7e4ff;
+  min-width: 490px;
+  border: 5px dashed #c7e4ff;
 }
 
 html::before,
@@ -16,13 +16,13 @@ body::before,
 header::before,
 footer::before,
 main::before {
-  color: #7fc1ff;
+  color: #9211ff;
 }
 
 main,
 header,
 footer {
-  background-color: #f3faff;
+  background-color: #f9faff;
   border: 2px solid #7fc1ff;
 }
 
@@ -56,11 +56,11 @@ h1::before {
 
 h2::before {
   content: "h2";
-  color: #ff994f;
+  color: #f0004f;
 }
 
 h3::before {
-  content: "h3";
+  content: "h1";
   color: #ff994f;
 }
 
@@ -87,7 +87,7 @@ p::before {
 
 *::before {
   position: absolute;
-  top: 8px;
+  top: 19px;
   left: 10px;
   font-weight: 700;
   font-size: 11px;
